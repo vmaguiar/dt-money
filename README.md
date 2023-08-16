@@ -1,27 +1,146 @@
-# React + TypeScript + Vite
+<h3 style="display: block" align = "center"> By vmaguiar </ h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# DT Money
 
-Currently, two official plugins are available:
+It's Financial Services app, called DT Money. Made using TypeScript and React with Sytled Components + Vite <br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+this app is being developed to practice my front-end skills. At first, the app will list both incoming and outgoing transactions, and show the account balance.
 
-## Expanding the ESLint configuration
+<!-- ## colocar GIF abaixo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p align='center'>
+  <img width='600' src='src/assets/to_readme/t3-app-readme-gif.gif'
+</p><br>
+ -->
 
-- Configure the top-level `parserOptions` property like this:
+## Goals with the development.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- [🟩] Styled Components:
+  - [✔️] Install and use Styled Components.
+  - [✔️] Set up and type themes.
+  - [✔️] Set up and use global style.
+  
+- [  ] File Structure:
+  - [✔️] Separete in 'Pages', 'Components' and 'Layouts'.
+  - [✔️] Create component 'Header'.
+  - [  ] Create component 'Summary'.
+  - [  ] Create component 'SearchForm'.
+
+- [  ] React Router DOM:
+  - [  ] Install and use React Router DOM.
+  - [  ] Create Router file with Routes.
+  - [  ] Create at least one routes layout (DefautlLayout).
+  - [  ] Manage Pages and Components.
+  
+- [  ] React Hooks:
+  - [  ] Use useState hook:
+    - [  ] Use React Hook Form to help with useState.
+    
+  - [  ] Use useEffect hook
+
+  - [  ] Use useContext hook:
+    - [  ] manage components in diferent files using context.
+    - [  ] manage context between routes.
+
+  - [  ] Use useReducer hook:
+    - [  ] Change the "usestate" to "reducer" where it's better.
+    - [  ] Put reducer in separate file.
+    - [  ] Separate and type Actions in diferent file. <br>
+
+<!-- - [🟩] Immer:
+  - [✔️] Use to change the state as if it were mutable.
+  
+- [🟩] LocalStorage:
+  - [✔️] Uses LocalStorage to save the state.
+
+- [🟩] Zod:
+  - [✔️] install and use to validate the inputs
+  
+- [🟩] Date fns:
+  - [✔️] use to format and manage the dates <br> -->
+
+### Additional features:
+
+* [✔️] Detailed README.md
+
+<br>
+
+<!-- ## FullStack TypeScript: Front-End and Back-End (Tecnology of your choice) Todo List.
+
+- [] Implement a full-stack Todo List application using TypeScript.
+- [] Choose your preferred technology stack for the back-end (e.g., Node.js with Express, NestJS, Next, etc.).
+- [] Use React.js with Next.js for the front-end development.
+- [] Display a list of tasks with the ability to add, update, and delete tasks.
+- [] Include proper error handling and validation.
+- [] Add a search/filter feature to search for specific tasks.
+- [] Implement a user-friendly UI with appropriate styling.
+- [] Design a RESTful API for CRUD operations on the back-end.
+- [] Connect the front-end application to the back-end using appropriate API calls.
+- [] Handle data synchronization between the client and server. <br>
+
+
+## FullStack with T3 Stack: Use create-t3-app for bootstrap your Todo List app.
+
+- [✔️] Implement a full-stack Todo List application using create-t3-app.
+- [✔️] Use create-t3-app (https://create.t3.gg/) to bootstrap your project.
+- [✔️] The back-end will be automatically set up using the create-t3-app stack.
+- [✔️] Use React.js with Next.js for the front-end development.
+- [✔️] Display a list of tasks with the ability to add, update, and delete tasks
+- [✔️] Include proper error handling and validation.
+- [-] Add a search/filter feature to search for specific tasks.
+- [✔️] Implement a user-friendly UI with appropriate styling.
+- [✔️] Design a RESTful API for CRUD operations on the back-end.
+- [✔️] Handle data synchronization between the client and server.
+
+### Additional features:
+
+* [-] Card feature with title and todo's (like google keep list).
+* [-] display all the cards created.
+* [✔️] Detailed README.md -->
+
+
+#### to get things worked:
+
+### Clone this repository:
+
+```bash 
+git clone https://github.com/vmaguiar/ignite-timer.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+then open the folder:
+```bash 
+cd ignite-timer
+```
+<br>
+
+### download all dependences used by the app:
+
+```bash 
+npm ci
+```
+
+### Run the development project:
+
+```bash 
+npm run dev
+```
+
+## ⚒️  tools used:
+
+</div>
+
+
+ <div style="display: inline_block" align = "center"><br>
+
+  <img align="center" alt="VsCode " height="40" width="40" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" />
+  <img align="center" alt="Git" height="40" width="40" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
+  <img align="center" alt="GitHub" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+  <img align="center" alt="HTML" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+  <img align="center" alt="CSS" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+  <img align="center" alt="React " height="40" width="45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" />
+  <img align="center" alt="Vite" height="45" width="45" src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" />
+  <img align="center" alt="TypeScript" height="40" width="40" src="https://cdn.worldvectorlogo.com/logos/typescript.svg" />
+  <img align="center" alt="TypeScript" height="40" width="40" src="https://cdn.worldvectorlogo.com/logos/styled-components-1.svg" />
+
+</div>
+
