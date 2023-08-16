@@ -104,12 +104,12 @@ this app is being developed to practice my front-end skills. At first, the app w
 ### Clone this repository:
 
 ```bash 
-git clone https://github.com/vmaguiar/ignite-timer.git
+git clone https://github.com/vmaguiar/dt-money.git
 ```
 
 then open the folder:
 ```bash 
-cd ignite-timer
+cd dt-money
 ```
 <br>
 
@@ -140,7 +140,7 @@ npm run dev
   <img align="center" alt="React " height="40" width="45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" />
   <img align="center" alt="Vite" height="45" width="45" src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" />
   <img align="center" alt="TypeScript" height="40" width="40" src="https://cdn.worldvectorlogo.com/logos/typescript.svg" />
-  <img align="center" alt="TypeScript" height="40" width="40" src="https://cdn.worldvectorlogo.com/logos/styled-components-1.svg" />
+  <img align="center" alt="styled-components" height="40" width="40" src="https://cdn.worldvectorlogo.com/logos/styled-components-1.svg" />
 
 </div>
 
