@@ -20,11 +20,15 @@ this app is being developed to practice my front-end skills. At first, the app w
   - [✔️] Set up and type themes.
   - [✔️] Set up and use global style.
   
-- [  ] File Structure:
+- [🟩] File Structure:
   - [✔️] Separete in 'Pages', 'Components' and 'Layouts'.
   - [✔️] Create component 'Header'.
-  - [  ] Create component 'Summary'.
-  - [  ] Create component 'SearchForm'.
+  - [✔️] Create component 'Summary'.
+  - [✔️] Create component 'SearchForm'.
+  - [✔️] Create component 'NewTrasactionModal' inside the Trasactions page.
+
+- [  ] Accessibility in HTML:
+  - [✔️] Use Radix Ui react-dialog (for acessible modal).
 
 - [  ] React Router DOM:
   - [  ] Install and use React Router DOM.
